@@ -1,0 +1,29 @@
+{ "projects": [{
+    "genre": 1,
+    "title": "Alpha Issues - Cat Related",
+    "description": "Ginger not only does not like gingers, he always needs to be the top dog. Help him adjust to other pets",
+    "image": "http://cdn.quotesgram.com/small/58/1/659385343-Funny-Dogs-Getting-In-Trouble-11-300x300.jpg",
+    "funding": 0
+  },
+  {
+    "genre": 1,
+    "title": "Sammy's Sense of Smell Stinks",
+    "description": "Sammy has graduated from rolling in otter poop and bear crap to embracing skunks... Help him clean up his act and his sense of smell!",
+    "image": "http://cdn.quotesgram.com/img/18/60/843525133-Funny-Dogs-Getting-In-Trouble-4-300x300.jpg",
+    "funding": 0
+  },
+  {
+    "genre": 2,
+    "title": "Wilbur Likes Toilets",
+    "description": "Wilbur has a fascination with toilets, especially ones that have been recently used. Help Wilbur know when to leave things alone",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/21/dc/bd/21dcbd527d9727d19b86f650babc82f1.jpg",
+    "funding": 0
+  },
+  {
+    "genre": 2,
+    "title": "Cutie Pie has Anger Issues",
+    "description": "Cutie Pie does not live up to her name. She hates her owners and any strangers. She needs to find love and love the ones she is with.",
+    "image": "http://images.hellogiggles.com/uploads/2016/05/29044028/shutterstock_270732065.jpg",
+    "funding": 0
+  }]
+}
