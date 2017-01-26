@@ -20,8 +20,7 @@ export class AddProjectComponent {
 
   submitForm(genre: string, title: string, description: string, image: string, funding: number = 0, fundingcomplete: number)  {
     var newProject: Project = new Project(genre, title, description, image, funding, fundingcomplete);
-   this.projectService.addProject(newProject);
-    console.log(genre);
+    this.projectService.addProject(newProject);
  }
 
 }

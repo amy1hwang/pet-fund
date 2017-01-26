@@ -7,8 +7,11 @@
 
       <div>
         <label>Select the type of animal that your project funds:</label>
-        <br>
-        <input #newGenre>
+        <select #newGenre>
+          <option [value]="allPets">All Pets</option>
+          <option [value]="dog"> Dogs</option>
+          <option [value]="cat"> Cats </option>
+        </select>
       </div>
       <div>
         <label>Project Purpose:</label>
@@ -42,11 +45,3 @@
     </div>
   </div>
 </div>
-
-
-<!-- <form>
-  <input type="radio" [(ngModel)]="genre" (click)="itemtype='all'" name="genreoption" value="all" selected="selected">All Pet Types<br>
-  <input type="radio" [(ngModel)]="genre" (click)="itemtype='dog'" name="genreoption" value="dog">Dog<br>
-  <input type="radio" [(ngModel)]="genre" (click)="itemtype='cat'" name="genreoption" value="cat">Cat<br>
-  <input type="radio" [(ngModel)]="genre" (click)="itemtype='hamster'" name="genreoption" value="hamster">Hamsters<br>
-</form> -->
