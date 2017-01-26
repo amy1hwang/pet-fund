@@ -1,4 +1,10 @@
-<div *ngFor="let project of projects | async"  class="panel panel-default">
+<select (change)="onChange($event.target.value)">
+  <option value="allPets" selected="selected">All Pets</option>
+  <option value="dog">Dogs</option>
+  <option value="cat">Cats</option>
+</select>
+
+<div *ngFor="let project of projects | async | genre: filterByGenre"  class="panel panel-default">
   <div class="panel-body">
     <img src={{project.image}} alt="" height="250px"><br>
     <h3>{{project.title}}</h3>

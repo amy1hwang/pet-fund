@@ -15,7 +15,11 @@ export class ProjectListComponent implements OnInit {
   projects: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
 
-
+  filterByGenre: string = "allpets";
+  
+  onChange(optionFromMenu) {
+    this.filterByGenre = optionFromMenu;
+  }
 
   constructor (private router: Router, private projectService: ProjectService) { }
 
