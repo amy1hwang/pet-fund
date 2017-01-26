@@ -12,6 +12,7 @@ import { Project } from '../project.model';
 export class AdminComponent {
   projects: FirebaseListObservable<any[]>;
 
+
   constructor(private projectService: ProjectService) {
   }
 

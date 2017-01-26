@@ -11,8 +11,6 @@ import { ProjectService } from '../project.service';
 export class EditProjectComponent implements OnInit {
   @Input() projectToDisplay;
 
-  // hideEditForm: boolean = true;
-
 
   constructor(private projectService: ProjectService) {
  }

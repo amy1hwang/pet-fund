@@ -16,6 +16,7 @@ export class ProjectListComponent implements OnInit {
   currentRoute: string = this.router.url;
 
 
+
   constructor (private router: Router, private projectService: ProjectService) { }
 
   ngOnInit() {
