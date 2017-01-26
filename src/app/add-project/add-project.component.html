@@ -40,7 +40,7 @@
         <br>
         <input #newFundingcomplete>
       </div>
-      <button (click)="submitForm(newGenre.value, newTitle.value, newDescription.value, newImage.value, newFunding.value, newFundingcomplete.value)">Submit</button>
+      <button (click)="submitForm(newGenre.value, newTitle.value, newDescription.value, newImage.value, newFunding.value, newFundingcomplete.value); newGenre.value=''; newTitle.value=''; newDescription.value=''; newImage.value=''; newFunding.value=''; newFundingcomplete.value=''">Submit</button>
 
     </div>
   </div>

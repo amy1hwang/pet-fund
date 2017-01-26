@@ -11,6 +11,10 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
+import { EditProjectComponent } from './edit-project/edit-project.component';
+import { DeleteProjectComponent } from './delete-project/delete-project.component';
+import { AdminComponent } from './admin/admin.component';
+import { UserComponent } from './user/user.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -26,6 +30,10 @@ export const firebaseConfig = {
     ProjectListComponent,
     AboutComponent,
     ProjectDetailComponent,
+    EditProjectComponent,
+    DeleteProjectComponent,
+    AdminComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,

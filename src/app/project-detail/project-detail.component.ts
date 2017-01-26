@@ -26,4 +26,5 @@ export class ProjectDetailComponent implements OnInit {
    });
    this.projectToDisplay = this.projectService.getProjectById(this.projectId);
   }
+
 }

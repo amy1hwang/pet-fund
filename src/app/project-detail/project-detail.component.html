@@ -1,4 +1,7 @@
 <div>
+  <img src="{{(projectToDisplay | async)?.image}}" alt="" height="250px"><br>
+
   <h3>{{(projectToDisplay | async)?.title}}</h3>
   <p>{{(projectToDisplay | async)?.description}}</p>
+  <h4>${{(projectToDisplay | async)?.funding}} of ${{(projectToDisplay | async)?.fundingcomplete}} contributed.</h4>
 </div>

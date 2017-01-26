@@ -1,0 +1,52 @@
+<!-- <div *ngIf="hideForm"> -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Edit Your Project</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Edit the type of animal that your project funds:</label>
+        <select [(ngModel)]="projectToDisplay.genre">
+          <option value="allPets">All Pets</option>
+          <option value="dog"> Dogs</option>
+          <option value="cat"> Cats </option>
+        </select>
+      <div>
+        <label>Edit Project Purpose:</label>
+        <br>
+        <input [(ngModel)]="projectToDisplay.title">
+      </div>
+
+      <div>
+        <label>Edit Project Description</label>
+        <br>
+        <textarea [(ngModel)]="projectToDisplay.description"></textarea>
+      </div>
+
+      <div>
+        <label>Edit Project Image URL:</label>
+        <br>
+        <input [(ngModel)]="projectToDisplay.image">
+      </div>
+      <div>
+        <label>Edit Project Fundraising Goal:</label>
+        <br>
+        <input [(ngModel)]="projectToDisplay.funding">
+      </div>
+      <div>
+        <label>Edit Project Fundraising Goal:</label>
+        <br>
+        <input [(ngModel)]="projectToDisplay.fundingcomplete">
+      </div>
+      <div>
+        <p><br>
+          <button (click)="beginUpdatingProject(projectToDisplay)">Update</button><br><br>
+          <button (click)="beginDeletingProject(projectToDisplay)">Delete</button>
+        </p>
+      </div>
+<!-- <button (click)="hideForm()">HIDE</button> -->
+    </div>
+  </div>
+</div>
+<!-- </div> -->

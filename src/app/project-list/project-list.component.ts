@@ -13,6 +13,9 @@ import { AngularFire, FirebaseListObservable } from 'angularfire2';
 })
 export class ProjectListComponent implements OnInit {
   projects: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
+
+
   constructor (private router: Router, private projectService: ProjectService) { }
 
   ngOnInit() {
