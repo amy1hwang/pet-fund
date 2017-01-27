@@ -1,0 +1,17 @@
+<!-- <div *ngIf="hideForm"> -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Contribute To A Project</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <label>Contributor Name:</label>
+      <br>
+      <input [(ngModel)]="name">
+      We need your help, {{name}}!
+    </div>
+  </div>
+</div>
+<div>
+  <app-project-list></app-project-list>
+</div>

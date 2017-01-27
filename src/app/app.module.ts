@@ -16,6 +16,8 @@ import { DeleteProjectComponent } from './delete-project/delete-project.componen
 import { AdminComponent } from './admin/admin.component';
 import { UserComponent } from './user/user.component';
 import { GenrePipe } from './genre.pipe';
+import { ContributeComponent } from './contribute/contribute.component';
+import { EditFundComponent } from './edit-fund/edit-fund.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -35,7 +37,9 @@ export const firebaseConfig = {
     DeleteProjectComponent,
     AdminComponent,
     UserComponent,
-    GenrePipe
+    GenrePipe,
+    ContributeComponent,
+    EditFundComponent
   ],
   imports: [
     BrowserModule,

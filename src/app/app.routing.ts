@@ -6,6 +6,7 @@ import { ProjectListComponent} from './project-list/project-list.component';
 import { ProjectDetailComponent} from './project-detail/project-detail.component';
 import { AdminComponent} from './admin/admin.component';
 import { UserComponent} from './user/user.component';
+import { ContributeComponent} from './contribute/contribute.component';
 
 
 const appRoutes: Routes = [
@@ -32,6 +33,10 @@ const appRoutes: Routes = [
   {
       path: 'user',
       component: UserComponent
+  },
+  {
+    path: 'contribute',
+    component: ContributeComponent
   }
 ];
 
